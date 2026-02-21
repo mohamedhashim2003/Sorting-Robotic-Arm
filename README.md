@@ -1,7 +1,7 @@
 # 3DOF Sorting Robotic Arm
 
 ## 📖 Overview
-[cite_start]This repository contains the mathematical modeling and MATLAB implementation for a 3-DOF planar serial manipulator used in automated sorting operations[cite: 1, 5]. [cite_start]It includes comprehensive derivations and code for forward/inverse kinematics, Jacobian matrices, and Lagrangian dynamics[cite: 8].
+This repository contains the mathematical modeling and MATLAB implementation for a 3-DOF planar serial manipulator used in automated sorting operations. It includes comprehensive derivations and code for forward/inverse kinematics, Jacobian matrices, and Lagrangian dynamics.
 
 ## 📂 Repository Structure
 ```text
@@ -17,12 +17,12 @@
 ├── dynamics_numerical.m         # Numeric verification of the mass matrix and gravity vector
 └── inverse.m                    # Inverse kinematics analytical solver
 ```
-⚙️ Prerequisites
+## ⚙️ Prerequisites
 To run the scripts in this repository, you will need:
 MATLAB (R2021a or newer recommended)
 Symbolic Math Toolbox (Required for the analytic derivations and Christoffel symbols)
 
-🚀 Usage
+## 🚀 Usage
 Clone the repository:
 git clone [https://github.com/mohamedhashim2003/Sorting-Robotic-Arm.git](https://github.com/mohamedhashim2003/Sorting-Robotic-Arm.git)
 Open MATLAB and navigate to the cloned repository folder.
@@ -31,14 +31,14 @@ Run ForwardGUI.m to launch the interactive kinematics interface.
 Run dynamics_numerical.m to verify the mass/inertia matrix and gravity vector numerically.
 Run complete_Kinematics.m to output the full kinematic transformations.
 
-📐 System Parameters
+## 📐 System Parameters
 The physical and mechanical specifications of the robotic arm are modeled as follows:
 Base: Fixed cylindrical base with a 12 cm diameter.
 Links: 3 homogeneous slender rods. Link 1 is 10 cm, Link 2 is 12 cm, and Link 3 is 12 cm.
 Mass: Each link has a mass of 0.05 kg (50 g).
 Environment: Planar motion with gravity acting vertically downward in the plane.
 
-🧮 Mathematical Modeling
+## 🧮 Mathematical Modeling
 1. Kinematics
 Forward & Inverse: Calculates the end-effector pose using Denavit-Hartenberg (DH) parameters and solves for joint angles given a target pose, accounting for elbow up/down configurations.
 Jacobian Matrix: Maps joint velocities directly to end-effector Cartesian velocities.
@@ -49,5 +49,5 @@ D(q): Symmetric mass/inertia matrix.
 C(q,q'): Coriolis and centrifugal matrix derived via Christoffel symbols.
 G(q): Gravity vector.
 
-📄 License
+## 📄 License
 (See the LICENSE file for details. This code is restricted to personal, internal, and educational use. Commercial use is strictly prohibited without prior written consent.)
