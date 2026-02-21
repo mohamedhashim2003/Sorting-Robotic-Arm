@@ -1,7 +1,7 @@
 # 3DOF Sorting Robotic Arm
 
 ## 📖 Overview
-[cite_start]This repository contains the mathematical modeling and MATLAB implementation for a 3-DOF planar serial manipulator used in automated sorting operations[cite: 1, 5]. [cite_start]It includes comprehensive derivations and code for forward/inverse kinematics, Jacobian matrices, and Lagrangian dynamics[cite: 8].
+This repository contains the mathematical modeling and MATLAB implementation for a 3-DOF planar serial manipulator used in automated sorting operations. It includes comprehensive derivations and code for forward/inverse kinematics, Jacobian matrices, and Lagrangian dynamics.
 
 ## 📂 Repository Structure
 ```text
