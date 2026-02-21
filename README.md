@@ -16,7 +16,7 @@ This repository contains the mathematical modeling and MATLAB implementation for
 ├── compute_forces_and_torques.m # Joint torque calculations
 ├── dynamics_numerical.m         # Numeric verification of the mass matrix and gravity vector
 └── inverse.m                    # Inverse kinematics analytical solver
-```text
+```
 
 ⚙️ Prerequisites
 To run the scripts in this repository, you will need:
