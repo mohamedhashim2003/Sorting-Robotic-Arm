@@ -1,0 +1,19 @@
+# MATLAB Autosave and Backup files
+*.asv
+*.m~
+*~
+
+# Compiled MEX files (Operating system specific)
+*.mexa64
+*.mexmaci64
+*.mexmaca64
+*.mexw32
+*.mexw64
+*.mex*
+
+# Simulink code generation and cache folders
+slprj/
+*.slxc
+
+# Large MATLAB data files (Optional: remove this line if you WANT to upload small .mat files)
+*.mat
